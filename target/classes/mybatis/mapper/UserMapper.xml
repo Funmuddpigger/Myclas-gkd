@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mycls.demo.dao.UserMapper">
+    <select id="login" parameterType="com.mycls.demo.entities.User" resultType="com.mycls.demo.entities.User">
+        select * from loginuser where username=#{username} and password=#{password}
+    </select>
+
+    <insert id="register" parameterType="com.mycls.demo.entities.User">
+        insert into loginuser(username,password) values(#{username},#{password})
+    </insert>
+</mapper>

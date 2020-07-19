@@ -1,0 +1,5 @@
+com.mycls.demo.Controller.LoginController=org.springframework.stereotype.Component
+com.mycls.demo.DemoApplication=org.springframework.stereotype.Component
+com.mycls.demo.confirgure.Config=org.springframework.stereotype.Component
+com.mycls.demo.dao.UserMapper=org.springframework.stereotype.Component
+com.mycls.demo.service.UserService=org.springframework.stereotype.Component
